@@ -3,12 +3,12 @@ vue-kakushigoto-game
 
 This is a sample card game application built using [Vue 3](https://vuejs.org/guide/quick-start.html) in `Vite`.
 
-It is intended to be an idle game that one can play anywhere, even inside of crowded train or bus, just to while away the time. Or perhaps you are just plain bored. Like they say, an idle mind or brain should be stimulated and play idle games, lol.
+It is intended to be an `idle game` that one can play anywhere, even inside of crowded train or bus, just to while away the time. Or perhaps you are just plain bored. Like they say, ***"an idle mind or brain should be stimulated and play idle games"***, lol.
 
 ---
 これはViteでVue 3を使用して構築されたサンプルWebゲームアプリケーションです。
 
-これは、混雑した列車やバスの中でも、ただ時間をつぶすためにどこででも遊べるアイドルゲームを意図しています。あるいは単に退屈なだけかもしれません。「アイドルマインドは刺激すべきで、アイドルゲームをプレイすべき」という言い方がありますね、笑。
+これは、混雑した列車やバスの中でも、ただ時間をつぶすためにどこででも遊べる`アイドルゲーム`を意図しています。あるいは単に退屈なだけかもしれません。`「アイドルマインドは刺激すべきで、アイドルゲームをプレイすべき」`という言い方がありますね、笑。
 
 
 # The Game
@@ -38,8 +38,8 @@ It is common to find words playfully re-written where they use numbers that corr
     Whoever gets the higher card wins the round.
 
 
-* At the start of the game, both players have ¥1000 each as tokens.
-  * If you win, ¥5 will be deducted to the opposing player and it will be added to you.
+* At the start of the game, both players have 1000 tokens each.
+  * If you win, 5 tokens will be deducted to the opposing player and it will be added to you.
   * The player who ended up with zero token loses and then the game ends.
 
 ---
@@ -56,8 +56,8 @@ It is common to find words playfully re-written where they use numbers that corr
       より高いカードを獲得した人がラウンドに勝ちます。
 
 
-* ゲーム開始時、両プレイヤーはそれぞれ¥1000のトークンを持っています。
-    * 勝った場合、対戦相手から¥5が引かれ、自分に加算されます。
+* ゲーム開始時、両プレイヤーはそれぞれ1000のトークンを持っています。
+    * 勝った場合、対戦相手から5のトークンが引かれ、自分に加算されます。
     * トークンが0になったプレイヤーが負け、ゲームが終了します。
 
 
