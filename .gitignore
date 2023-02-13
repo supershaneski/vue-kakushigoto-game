@@ -15,6 +15,7 @@ coverage
 *.local
 
 # My ignore list
+/build/
 /.vscode/
 /_bin/
 *.bu.html
