@@ -86,7 +86,7 @@ function robotTurn() {
 
     resetCards()
 
-  }, 300)
+  }, 100)
 
 }
 
@@ -104,7 +104,7 @@ function resetCards() {
     
     doShuffle()
 
-  }, 600)
+  }, 200)
 
 }
 
@@ -116,7 +116,7 @@ function doShuffle() {
 
     disabled.value = false
 
-  }, 300)
+  }, 100)
 
 }
 
