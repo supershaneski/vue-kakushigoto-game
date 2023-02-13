@@ -3,12 +3,12 @@ vue-kakushigoto-game
 
 This is a sample card game application built using [Vue 3](https://vuejs.org/guide/quick-start.html) in `Vite`.
 
-It is intended to be an `idle game` that one can play anywhere, even inside of crowded train or bus, just to while away the time. Or perhaps you are just plain bored. Like they say, ***"an idle mind or brain should be stimulated and play idle games"***, lol.
+It is designed to be an `idle game` that one can play anywhere, even inside crowded train or bus, using just one hand. The transitions are very fast as the main purpose of this game is like a clicker game.
 
 ---
 これはViteでVue 3を使用して構築されたサンプルWebゲームアプリケーションです。
 
-これは、混雑した列車やバスの中でも、ただ時間をつぶすためにどこででも遊べる`アイドルゲーム`を意図しています。あるいは単に退屈なだけかもしれません。`「アイドルマインドは刺激すべきで、アイドルゲームをプレイすべき」`という言い方がありますね、笑。
+それは、移動中の混雑した電車やバスの中でも片手で簡単に遊べる、「`アイドルゲーム`」として設計されています。トランジションは非常に速く、このゲームの主な目的は`クリッカーゲーム`のようです。
 
 
 # The Game
@@ -78,6 +78,9 @@ I will be using the following modules/library:
 
 * [Pinia](https://pinia.vuejs.org), for state management. Who can resist the cute yellow face of their mascot?
 
+## TODO
+
+> Game Win screen 
 
 # Getting Started
 
