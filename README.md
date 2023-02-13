@@ -103,5 +103,5 @@ To launch `Storybook`
 $ npm run storybook
 ```
 
-Open your browser to `http://localhost:5000/` to load the application
+Open your browser to `http://localhost:5000/vue-kakushigoto-game/` to load the application
 
