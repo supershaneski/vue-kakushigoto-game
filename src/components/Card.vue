@@ -42,12 +42,12 @@ function handleClick() {
 </script>
 
 <template>
-  <div class="card-container" @click="handleClick">
+  <div class="card-container">
     <div class="card2">
       <div class="card-text-layer">
         <span class="card-text">{{ props.text }}</span>
       </div>
-      <div v-if="!flipped" class="card-cover-layer"></div>
+      <div v-if="!flipped" class="card-cover-layer" @click="handleClick"></div>
     </div>
   </div>
 </template>
