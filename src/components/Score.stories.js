@@ -10,7 +10,7 @@ const Template = (args) => ({
   setup() {
     return { args };
   },
-  template: '<score v-bind="args" />',
+  template: '<div :style="{width: \'115px\',}"><score v-bind="args" /></div>',
 });
 
 export const Default = Template.bind({});
@@ -31,14 +31,20 @@ Win.args = {
 export const Digit1 = Template.bind({});
 Digit1.args = {
   score: 5,
+  iconPosition: 'right',
+  iconType: 'robot',
 };
 
 export const Digit2 = Template.bind({});
 Digit2.args = {
   score: 60,
+  iconPosition: 'right',
+  iconType: 'robot',
 };
 
 export const Digit3 = Template.bind({});
 Digit3.args = {
   score: 725,
+  iconPosition: 'right',
+  iconType: 'robot',
 };

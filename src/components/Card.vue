@@ -1,42 +1,36 @@
 <script setup>
-import { ref, reactive, computed, defineProps } from 'vue';
-
-const flipped = ref(false)
-const show = ref(true)
-
-function handleClick() {
-  if(!show.value) return;
-  emit('click', props.text)
-}
-
-function flip(){
-  flipped.value = true
-}
-
-function flip2(flag){
-  flipped.value = flag
-}
-
-function showHide(flag) {
-  show.value = flag;
-  if(show.value) {
-    flipped.value = false;
-  }
-}
+import { ref, toRefs } from 'vue';
 
 const props = defineProps({
   text: {
     Type: String,
     default: String(4),
+  },
+  disabled: {
+    Type: Boolean,
+    default: false,
+  },
+  flipped: {
+    Type: Boolean,
+    default: false,
   }
 })
 
 const emit = defineEmits(["click"])
 
+const show = ref(true)
+const { flipped } = toRefs(props)
+
+function handleClick() {
+  if(!show.value) return
+  if(props.disabled) return
+  emit('click')
+}
+
 </script>
 
 <template>
-  <div class="card-container" @click="flip">
+  <div class="card-container" @click="handleClick">
     <div class="card" :class="{ flipped: flipped }">
       <transition name="rotate-hide">
         <div v-if="show" class="cell">
@@ -57,8 +51,6 @@ const emit = defineEmits(["click"])
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /*width: 53px;
-    height: 75px;*/
     width: 100px;
     height: 142px;
     border: 1px solid transparent;

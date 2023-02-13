@@ -1,18 +1,6 @@
-<script setup>
-import { ref, reactive, computed, defineProps } from 'vue';
-
-const props = defineProps({
-  text: {
-    Type: String,
-    default: "Untitled",
-  }
-})
-
-</script>
-
 <template>
   <div class="title">
-    <h4 class="title-text">{{ props.text }}</h4>
+    <h4 class="title-text"><span class="katakana">カク</span>4510</h4>
   </div>
 </template>
 
@@ -27,6 +15,10 @@ const props = defineProps({
   text-transform: uppercase;
   margin: 0;
   padding: 0;
+}
+.katakana {
+  color: var(--color-heading);
+  font-weight: 600;
 }
 </style>
 
