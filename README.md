@@ -1,7 +1,7 @@
 vue-kakushigoto-game
 ===========
 
-This is a sample card game application built using [Vue 3](https://vuejs.org/guide/quick-start.html) in `Vite`.
+This is a sample clicker-game application built using [Vue 3](https://vuejs.org/guide/quick-start.html) in `Vite`.
 
 It is designed to be an `idle game` that one can play anywhere, even inside crowded train or bus, using just one hand. The transitions are very fast as the main purpose of this game is like a clicker game.
 
