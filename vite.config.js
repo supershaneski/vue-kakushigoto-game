@@ -7,7 +7,7 @@ import { resolve } from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/vue-kakushigoto-game/",
+  base: "/",
   plugins: [vue(), vueJsx()],
   resolve: {
     alias: {
