@@ -219,7 +219,7 @@ onMounted(() => {
 
 @media (max-width: 400px) {
   .card-panel {
-    width: 95%;
+    width: 85%;
   }
 }
 </style>

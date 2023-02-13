@@ -149,6 +149,14 @@ function handleClick() {
 .rotate-hide-enter, .rotate-hide-leave-to {
   transform: scale(0, 0) rotate(360deg);
 }
+
+
+@media (max-width: 400px) {
+  .card-container {
+    width: 80px;
+    height: 113px;
+  }
+}
 </style>
 
 
