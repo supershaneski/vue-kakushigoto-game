@@ -14,11 +14,11 @@ It is intended to be an `idle game` that one can play anywhere, even inside of c
 # The Game
 
 In Japanese, `kakushigoto` [かくしごと] means hidden work.
-It is common to find words playfully re-written where they use numbers that corresponds to the sound of the syllables. In this case, `kaku`-`shi`-`go`-`to` becomes `kaku`-`4`-`5`-`10` or `kaku4510`. So this game revolves around the numbers 4, 5 and 10.
+It is common to find words playfully re-written where they use numbers that corresponds to the sound of the syllables. In this case, `kaku`-`shi`-`go`-`to` becomes `kaku`-`4`-`5`-`10` or `カク4510`. So this game revolves around the numbers 4, 5 and 10.
 
 ---
 日本語では「かくしごと」は隠し仕事を意味します。
-音節の数字に対応した単語を冗談っぽく書き換えることが一般的です。この場合、「かく」-「し」-「ご」-「と」は「かく」-「4」-「5」-「10」または「かく4510」になります。つまり、このゲームは4、5、10の番号を回すものです。
+音節の数字に対応した単語を冗談っぽく書き換えることが一般的です。この場合、「かく」-「し」-「ご」-「と」は「かく」-「4」-「5」-「10」または「カク4510」になります。つまり、このゲームは4、5、10の番号を回すものです。
 
 
 ## Mechanics
