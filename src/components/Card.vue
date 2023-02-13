@@ -27,11 +27,8 @@ function handleClick() {
   emit('click')
 }
 
-</script>
-
-<template>
-  <div class="card-container" @click="handleClick">
-    <div class="card" :class="{ flipped: flipped }">
+/*
+<div class="card" :class="{ flipped: flipped }">
       <transition name="rotate-hide">
         <div v-if="show" class="cell">
           <div class="front">
@@ -41,16 +38,60 @@ function handleClick() {
         </div>
       </transition>
     </div>
+*/
+</script>
+
+<template>
+  <div class="card-container" @click="handleClick">
+    <div class="card2">
+      <div class="card-text-layer">
+        <span class="card-text">{{ props.text }}</span>
+      </div>
+      <div v-if="!flipped" class="card-cover-layer"></div>
+    </div>
   </div>
 </template>
 
 <style scoped>
-
+.card2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.card-text-layer {
+  background-color: #f5f5f5;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #4556;
+  border-radius: 6px;
+}
+.card-cover-layer {
+  background-color: #704214;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  border: 1px solid #4556;
+  box-sizing: border-box;
+  z-index: 2;
+}
 .card-container {
     background-color: transparent;
-    display: flex;
+    /*display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: center;*/
+    position: relative;
     width: 100px;
     height: 142px;
     border: 1px solid transparent;
