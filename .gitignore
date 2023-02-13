@@ -15,6 +15,7 @@ coverage
 *.local
 
 # My ignore list
+deploy.sh
 /build/
 /.vscode/
 /_bin/
